@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>About - Bissas</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<!-- Google Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Quicksand:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+		<!-- CSS Files -->
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/font-awesome.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+
+		<!-- Modernizr JS File -->
+		<script src="js/modernizr-custom.js"></script>
+	</head>
+
+	<body>
+	
+		<!-- START PRELOADER  -->	
+		<div class="preloader">
+			<div class="status">
+				<div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+			</div>
+		</div>
+		<!-- END PRELOADER -->	
+		
+		<!-- Header Start -->
+		<header class="header-area">
+			<a id="menu-btn" href="#"><i class="fas fa-bars"></i></a>
+			<a id="close-btn" href="#"><i class="fas fa-times"></i></a>
+			
+			<!--  Navigation Start -->
+			<ul class="main-menu">
+            <li><a href="{% url 'home' %}" data-toggle="tooltip" data-placement="right" title="首页"><span class="dot"></span></a></li>
+<li><a href="{% url 'about' %}" data-toggle="tooltip" data-placement="right" title="自我介绍"><span class="dot"></span></a></li>
+<li><a href="{% url 'contact' %}" data-toggle="tooltip" data-placement="right" title="留言"><span class="dot"></span></a></li>
+        </ul>
+			<!-- Navigation End -->
+		</header>
+		<!-- Header Ends -->
+<div class="banner-bg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url(img/background.jpg); z-index: -1;"></div>
+		<!-- Main Content Starts -->
+		<section class="container section-padding">
+			<div class="row">
+				<div class="banner-bg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url(img/background.jpg); z-index: -1;"></div>
+				<div class="col-lg-4 col-md-12 col-sm-12 col-12">
+					<img src="img/men.jpg" alt="personal image" />
+				</div><!-- End Col -->
+
+				<div class="col-lg-8 col-md-12 col-sm-12 col-12">
+					<div class="about-content">
+
+						<p class="about-bio">我是一名想交朋友的本科生，来自浙江台州，
+						除了全栈开发，我还喜欢芥末虾球
+						最喜欢的b站up主和我同龄叫SereinNIAN</p>
+
+						<div class="about-item">
+							<div class="row">
+								<div class="col-lg-6 col-md-12 col-12">
+									<div class="media">
+                                        <label><strong>名字 :</strong></label>
+                                        <p>不三不四</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>年龄 :</strong></label>
+                                        <p>自己算</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>专业 :</strong></label>
+                                        <p>金融科技</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>大学 :</strong></label>
+                                        <p>浙江财经大学</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong> </strong></label>
+                                        <p> </p>
+                                    </div>
+								</div>
+
+								<div class="col-lg-6 col-md-12 col-12">
+									<div class="media">
+                                        <label><strong>QQ号 :</strong></label>
+                                        <p>1150348830 </p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>生日 :</strong></label>
+                                        <p>2005 12 21</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>喜欢 :</strong></label>
+                                        <p>伊雷娜</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong>座右铭 :</strong></label>
+                                        <p>如果世界上真的有奇迹，那只是努力的另一个名字</p>
+                                    </div>
+
+									<div class="media">
+                                        <label><strong> </strong></label>
+                                        <p> </p>
+                                    </div>
+
+								</div>
+							</div>
+						</div>
+
+						<a href="{% url 'home' %}" class="btn global-btn">返回</a>
+					</div>
+				</div><!-- End Col -->
+			</div>
+
+			
+
+				
+		</section>
+		<!-- Main Content Ends -->
+
+		<!-- JS Files -->
+		<script src="js/jquery.js"></script>
+		<script src="bootstrap/js/popper.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="js/venobox.min.js"></script>
+		<script src="js/isotope.pkgd.min.js"></script>
+		<script src="js/imagesloaded.pkgd.js"></script>
+		<script src="js/scripts.js"></script>
+
+	</body>
+</html>

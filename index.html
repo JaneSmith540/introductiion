@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Bissas - Personal Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+
+    <!-- Modernizr JS File -->
+    <script src="js/modernizr-custom.js"></script>
+</head>
+<body class="home">
+
+    <!-- START PRELOADER  -->
+    <div class="preloader">
+        <div class="status">
+            <div class="lds-roller"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+        </div>
+    </div>
+    <!-- END PRELOADER -->
+    <!-- Header Start -->
+    <header class="header-area"><!-- Navigation Start -->
+        <ul class="main-menu">
+            <li><a href="{% url 'home' %}" data-toggle="tooltip" data-placement="right" title="首页"><span class="dot"></span></a></li>
+<li><a href="{% url 'about' %}" data-toggle="tooltip" data-placement="right" title="自我介绍"><span class="dot"></span></a></li>
+<li><a href="{% url 'contact' %}" data-toggle="tooltip" data-placement="right" title="留言"><span class="dot"></span></a></li>
+        </ul>
+        <!-- Navigation End -->
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Main Content Starts -->
+    <section class="container-fluid">
+        <div class="row align-items-center banner">
+            <div class="col-lg-6 position-fixed d-none d-lg-block banner-bg" style="background-image: url(img/men.jpg);"></div>
+            <div class="banner-bg" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-image: url(img/background.jpg); z-index: -1;"></div>
+                <div class="banner-text">
+                    <h5 class="text-yellow">Hello</h5>
+                    <h1 class="text-yellow">我叫 不三不四</h1 >
+                    <h3 class="designation text-yellow">很高兴能够认识你</h3>
+                    <p class="text-yellow">我会在这里和大家交流，分享经验</p>
+                   <a href="{% url 'about' %}" class="btn global-btn text-yellow">了解我</a>
+                </div>
+            </div>
+    </section>
+    <!-- Main Content Ends -->
+
+    <!-- JS Files -->
+    <script src="js/jquery.js"></script>
+    <script src="bootstrap/js/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/venobox.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/imagesloaded.pkgd.js"></script>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
